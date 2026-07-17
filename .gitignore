@@ -1,0 +1,29 @@
+# Batch files
+*.bat
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Compiled
+*.exe
+*.dll
+*.pdb
+*.ilk
+
+# OS
+Thumbs.db
+Desktop.ini
+*.log

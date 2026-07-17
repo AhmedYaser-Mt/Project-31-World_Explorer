@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{764D5B07-18E7-4B27-AC75-3F28B41D4B6E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project_31___The_World_Explorer__</RootNamespace>
+    <AssemblyName>Project 31 [ The World Explorer ]</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAfricaScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAfricaScreen.Designer.cs">
+      <DependentUpon>frmAfricaScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAntarcticaScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAntarcticaScreen.Designer.cs">
+      <DependentUpon>frmAntarcticaScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsiaScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsiaScreen.Designer.cs">
+      <DependentUpon>frmAsiaScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAustraliaScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAustraliaScreen.Designer.cs">
+      <DependentUpon>frmAustraliaScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEuropeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEuropeScreen.Designer.cs">
+      <DependentUpon>frmEuropeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainScreen.Designer.cs">
+      <DependentUpon>frmMainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNorthAmericaScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNorthAmericaScreen.Designer.cs">
+      <DependentUpon>frmNorthAmericaScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSouthAmericaScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSouthAmericaScreen.Designer.cs">
+      <DependentUpon>frmSouthAmericaScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStartScreen.Designer.cs">
+      <DependentUpon>frmStartScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAfricaScreen.resx">
+      <DependentUpon>frmAfricaScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAntarcticaScreen.resx">
+      <DependentUpon>frmAntarcticaScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsiaScreen.resx">
+      <DependentUpon>frmAsiaScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAustraliaScreen.resx">
+      <DependentUpon>frmAustraliaScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEuropeScreen.resx">
+      <DependentUpon>frmEuropeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainScreen.resx">
+      <DependentUpon>frmMainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNorthAmericaScreen.resx">
+      <DependentUpon>frmNorthAmericaScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSouthAmericaScreen.resx">
+      <DependentUpon>frmSouthAmericaScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStartScreen.resx">
+      <DependentUpon>frmStartScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Africa Lions.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nile River.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pyramids.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Victoria Falls.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World Map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Africa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Europe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Australia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Antarctica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\North-America.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\South-America.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Great Wall of China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Great Wall of China 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mount Everest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taj Mahal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ice.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\South Pole.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pinguins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Antarctic Ice Sheet.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Australia View.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sedney Opera House.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Great Barrier Reef.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uluru.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Europe View.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eiffel Tower.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colosseum.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Big Ben.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\North America View.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grand Canyon.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Niagara Falls.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Statue of Liberty.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\South America View.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easter Island.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Machu Picchu.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amazon Rainforest.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
